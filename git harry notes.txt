@@ -1,0 +1,33 @@
+git status ( to check status )
+git init (to initialize empty repository in git but currently untracked)
+git add --a ( to track the added files that are in .git folder staging area)
+git commit -m "whatever your message is" (snapshot hogai hai picture capture ho gai )
+--------------------------------------------------------------
+git log ( ye dekhne k liye k kitne commit kiay hain ) OPTIONAL
+--------------------------------------------------------------
+if you modifiy 2 files and want to add and commit only one file then 
+git add first.txt (first.txt--> file name)
+--------------------------------------------------------------
+rm -rf .git (to delete all the contents in a git repository ) |
+--------------------------------------------------------------      --> linux commands
+pwd (to check present working directory)                      |
+--------------------------------------------------------------
+ls (list content jo bhi folder mei hai )
+--------------------------------------------------------------
+IGNORING FILES______
+touch filename (filename--> yahn jo file banani hai uska name)
+e.g touch error.log
+touch .gitignore (wo files dal do jo ignore karni hain unka name is file mei type kardo
+ aur ab agar un mei changes ho gi tw wo modified nhi dekhaye ga)
+if you want to ignore all the files with extension .log
+write *.log inside .gitignore file
+IGNORING DIRECTORY______
+write dir/ inside .gitignore file
+---------------------------------
+blank folders are ignored
+----------------------------------
+git diff ( to see the difference between the modified and unmodified form )
+
+
+
+
